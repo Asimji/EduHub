@@ -1,0 +1,21 @@
+
+    <app-navbar></app-navbar>
+
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+    <div *ngFor="let item of user; let i = index">
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <div>
+            <iframe width="300" height="181" src="https://www.youtube.com/embed/k7ELO356Npo" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <h1 class="text-xl font-bold">{{ item.title }}</h1>
+        <p class="mt-2">{{ item.description }}</p>
+        <div class="flex gap-10">
+            <p class="mt-2">{{ item.instructor }}</p>
+            <p class="mt-2">{{ item.subscriber }}+ <span class="text-red-400">subscriber</span></p>
+        </div>
+        <p class="mt-2"><span class="text-blue-400">Rating</span> {{ item.rating }}</p>
+        <a [routerLink]="['/course', item._id]" class="mt-4 text-blue-600 hover:underline">Learn More</a>
+      </div>
+    </div>
+  </div>

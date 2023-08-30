@@ -8,6 +8,9 @@ import { LoginComponent } from './login/login.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
+import { CourseComponent } from './course/course.component';
+import {HttpClientModule} from '@angular/common/http';
+import { CourseDetailsComponent } from './course-details/course-details.component'
 
 @NgModule({
   declarations: [
@@ -15,12 +18,15 @@ import { NavbarComponent } from './navbar/navbar.component';
     RegisterComponent,
     LoginComponent,
     HomepageComponent,
-    NavbarComponent
+    NavbarComponent,
+    CourseComponent,
+    CourseDetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
