@@ -15,7 +15,7 @@ export class RegisterComponent  {
 
    handleSubmit(){
     console.log(this.user)
-    fetch(`http://localhost:8080/user/register`,{
+    fetch(`https://eduhub-smd6.onrender.com/user/register`,{
       method:"POST",
       headers:{
         "Content-Type":"application/json"

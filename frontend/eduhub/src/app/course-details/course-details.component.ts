@@ -18,7 +18,7 @@ export class CourseDetailsComponent implements OnInit {
       console.log("courseIdt",this.courseId)
       // Fetch the course details by courseId and assign it to this.course
       // You can use an HTTP request or any other data source here.
-      const apiUrl = `http://localhost:8080/course/${this.courseId}`;
+      const apiUrl = `https://eduhub-smd6.onrender.com/course/${this.courseId}`;
 
       // Make an HTTP GET request to fetch course details
       this.http.get(apiUrl).subscribe(
