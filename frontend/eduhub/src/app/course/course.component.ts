@@ -12,7 +12,7 @@ export class CourseComponent {
 constructor(private http:HttpClient){}
 
 ngOnInit(){
-  this.http.get<any>(`http://localhost:8080/course`).subscribe((response)=>{this.user=response.course},(error)=>{console.log(error)})
+  this.http.get<any>(`https://eduhub-smd6.onrender.com/course`).subscribe((response)=>{this.user=response.course},(error)=>{console.log(error)})
 }
 
 }
