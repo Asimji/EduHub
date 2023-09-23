@@ -5,7 +5,7 @@ Visit the live site: https://eduhub-one.vercel.app/
 ## Features
 
 - **User Authentication**: Secure login and registration system to access course materials.
-- 
+  
 - **Course Catalog**: Browse through a diverse catalog of courses on various subjects.
 
 - **Course Details**: Get detailed information about each course, including syllabus, instructor, and reviews.
@@ -23,7 +23,6 @@ Visit the live site: https://eduhub-one.vercel.app/
 To run Eduhub locally, follow these steps:
 
 1. Clone this repository:
-- ```bash
 - git clone https://github.com/Asimji/eduhub.git
 
 2. Navigate to the project directory:
