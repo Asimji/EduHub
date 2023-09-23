@@ -64,8 +64,6 @@ Screenshots
 <img src="frontend\eduhub\src\assests\edu-single.png" alt="screenshot" />
 
 
-<img src="frontend\src\assests\evo-email-verify.png" alt="screenshot" />
-
 ## Contributing
 
 We welcome contributions from the community. If you have suggestions, improvements, or bug fixes, please open an issue or submit a pull request.
