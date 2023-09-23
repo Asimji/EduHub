@@ -39,7 +39,7 @@ To run Eduhub locally, follow these steps:
 - bash
 - Copy code
 - npm start
--Open your browser and go to http://localhost:4200 to access Eduhub.
+- Open your browser and go to http://localhost:4200 to access Eduhub.
 
 Project Structure
 Here's a brief overview of the project structure:
