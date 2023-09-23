@@ -49,19 +49,20 @@ Here's a brief overview of the project structure:
 
    
 Screenshots
-<img src="frontend\eduhub\src\assests\edu-register.png" alt="screenshot" /> 
+
+<img src="frontend\eduhub\src\assets\edu-register.png" alt="screenshot" /> 
 
 
-<img src="frontend\eduhub\src\assests\edu-login.png" alt="screenshot" />
+<img src="frontend\eduhub\src\assets\edu-login.png" alt="screenshot" />
 
 
-<img src="frontend\eduhub\src\assests\edu-home.png" alt="screenshot" />
+<img src="frontend\eduhub\src\assets\edu-home.png" alt="screenshot" />
 
 
-<img src="frontend\eduhub\src\assests\edu-course.png" alt="screenshot" />
+<img src="frontend\eduhub\src\assets\edu-course.png" alt="screenshot" />
 
 
-<img src="frontend\eduhub\src\assests\edu-single.png" alt="screenshot" />
+<img src="frontend\eduhub\src\assets\edu-single.png" alt="screenshot" />
 
 
 ## Contributing
