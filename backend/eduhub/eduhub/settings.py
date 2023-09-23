@@ -30,6 +30,13 @@ ALLOWED_HOSTS = []
 
 APPEND_SLASH = False
 
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+}
+
+
 
 # Application definition
 
@@ -40,8 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'authapp',
-    
+    'authapp'
 ]
 
 MIDDLEWARE = [
@@ -65,6 +71,9 @@ ROOT_URLCONF = 'eduhub.urls'
 # AUTHENTICATION_BACKENDS = [
 #     'django.contrib.auth.backends.ModelBackend',
 # ]
+
+AUTH_USER_MODEL = 'authapp.CustomUser'
+
 
 TEMPLATES = [
     {
@@ -121,7 +130,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 # settings.py
-AUTH_USER_MODEL = 'accounts.CustomUser'
+# AUTH_USER_MODEL = 'accounts.CustomUser'
 
 
 

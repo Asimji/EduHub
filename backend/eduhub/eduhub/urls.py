@@ -19,7 +19,7 @@ from authapp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('register/', signup, name='register'),
+    path('register/', register, name='register'),
     path('login/', login_view, name='login'),
-    path('login/', logout_view, name='logout')
+    path('logout/', logout_view, name='logout')
 ]
